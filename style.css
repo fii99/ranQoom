@@ -80,10 +80,19 @@ footer {
   margin: 0 auto;
   cursor: pointer;
   box-shadow: -10px -10px 0 0 black;
+  overflow: hidden ;
 }
 
 #question-card:hover{
   transform: scale(99%);
+}
+
+#field-form {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 #hint{
@@ -167,9 +176,12 @@ footer {
 
 input[type=text] {
   padding: 0.4rem;
+  width: 100%;
 }
 
 button {
+  min-width: 40%;
+  max-width: 45%;
   padding: 0.4rem 0.6rem;
   cursor: pointer;
 }
